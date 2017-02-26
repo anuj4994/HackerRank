@@ -22,7 +22,7 @@ public class CircularArrayRotationAlgos {
         int n = in.nextInt();
         int k = in.nextInt();
         int q = in.nextInt();
-        ArrayList<Integer> a = new ArrayList<>();
+        ArrayList<Integer> a = new ArrayList<>(n);
         int[] m = new int[q];
         for(int a_i=0; a_i < n; a_i++){
             a.add(in.nextInt());
